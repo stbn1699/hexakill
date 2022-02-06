@@ -1,0 +1,92 @@
+/* fonts */
+	@font-face {
+		font-family: "hexA";
+		src: url("../fonts/Hexa.woff") format("woff"),
+			url("../fonts/Hexa.woff2") format("woff2");
+	}
+/* fonts */
+
+body{
+	background-color: #101010;
+}
+
+/* boutons */
+.styled {
+	border: 0;
+	line-height: 2.5;
+	padding: 0 20px;
+	font-size: 1rem;
+	text-align: center;
+	color: #f5f3f5;
+	border-radius: 10px;
+	background-color: #3d3d3d;
+	transition: 0.5s;
+}
+
+.styled:hover {
+	color: #552499;
+	background-color: #4a4a4a;
+}
+
+.bandeau a{
+	display: block;
+}
+
+.bandeau{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+/* boutons */
+
+
+
+/* autres */
+.color header{
+	background-color: #0a0a0a;
+}
+
+img{
+	align-items: center;
+}
+
+.front{
+	font-family: "hexA";
+}
+
+.insta{
+	color : #6c7794;
+}
+/* autres */
+
+.barheader{
+	height: 2px;
+	width: 100%;
+	background: linear-gradient(to right, #EE680F, #3936C3);
+}
+.barheader1{
+	height: 126px;
+	width: 2px;
+	background: #EE680F;
+}
+.barheader2{
+	height: 126px;
+	width: 2px;
+	background: #3936C3;
+}
+.logoheader{
+	height: 120px;
+	width: 727px;
+	display: flex;
+}
+.logoheader2{
+	display: none;
+}
+@media screen and (max-width: 600px){
+.logoheader2{
+	display: flex;
+}
+	.logoheader{
+		display: none;
+	}
+}
