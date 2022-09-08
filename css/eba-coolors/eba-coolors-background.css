@@ -1,0 +1,39 @@
+.BGcolor-black{
+    background-color: #000000 !important;
+}
+.BGcolor-darkerGrey{
+    background-color: #202020 !important;
+}
+.BGcolor-darkGrey{
+    background-color: #404040 !important;
+}
+.BGcolor-grey{
+    background-color: #808080 !important;
+}
+.BGcolor-lightGrey{
+    background-color: #a0a0a0 !important;
+}
+.BGcolor-lighterGrey{
+    background-color: #c0c0c0 !important;
+}
+.BGcolor-brokenWhite{
+    background-color: #f8f8f8 !important;
+}
+.BGcolor-white{
+    background-color: #ffffff !important;
+}
+.BGcolor-deepBlue{
+    background-color: #03045E !important;
+}
+.BGcolor-darkBlue{
+    background-color: #0077B6 !important;
+}
+.BGcolor-blue{
+    background-color: #00B4D8 !important;
+}
+.BGcolor-lightBlue{
+    background-color: #90E0EF !important;
+}
+.BGcolor-heavenBlue{
+    background-color: #CAF0F8 !important;
+}
