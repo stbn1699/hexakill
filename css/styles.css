@@ -10,3 +10,12 @@ body, .accueilBackground { margin: 0; padding: 0;  }
     background-size: cover;
     animation: defile 100s ease-in-out infinite;
 }
+.headerButton{
+    font-size: 1.2rem;
+    transition-duration: 0.2s;
+    text-decoration:none;
+}
+.headerButton:hover{
+    font-size: 1.3rem;
+    transition-duration: 0.2s;
+}
