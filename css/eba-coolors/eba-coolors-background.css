@@ -10,9 +10,9 @@
 .BGcolor-darkerGrey-90{
     background-color: #202020 !important;
 }
-.BGcolor-darkGrey, .BGcolor-darkGrey-10, .BGcolor-darkGrey-20, 
-.BGcolor-darkGrey-30, .BGcolor-darkGrey-40, .BGcolor-darkGrey-50, 
-.BGcolor-darkGrey-60, .BGcolor-darkGrey-70, .BGcolor-darkGrey-80, 
+.BGcolor-darkGrey, .BGcolor-darkGrey-10, .BGcolor-darkGrey-20,
+.BGcolor-darkGrey-30, .BGcolor-darkGrey-40, .BGcolor-darkGrey-50,
+.BGcolor-darkGrey-60, .BGcolor-darkGrey-70, .BGcolor-darkGrey-80,
 .BGcolor-darkGrey-90{
     background-color: #404040 !important;
 }
@@ -141,3 +141,14 @@
 .BGcolor-heavenBlue-90{
     opacity: 90%;
 }
+
+/*
+regex nouvelle couleur :
+
+.BGcolor-(.*),
+
+.BGcolor-$1, .BGcolor-$1-10, .BGcolor-$1-20,
+.BGcolor-$1-30, .BGcolor-$1-40, .BGcolor-$1-50,
+.BGcolor-$1-60, .BGcolor-$1-70, .BGcolor-$1-80,
+.BGcolor-$1-90
+*/
