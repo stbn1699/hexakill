@@ -1,0 +1,12 @@
+@keyframes defile {
+    100% { background-position-y:   0; }
+    0% { background-position-y: 167vw; }
+}
+body, .accueilBackground { margin: 0; padding: 0;  }
+.accueilBackground {
+    height: 167vh;
+    background: url(../images/background.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    animation: defile 100s ease-in-out infinite;
+}

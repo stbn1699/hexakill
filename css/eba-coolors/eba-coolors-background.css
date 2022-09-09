@@ -1,154 +1,66 @@
-.BGcolor-black, .BGcolor-black-10, .BGcolor-black-20, 
-.BGcolor-black-30, .BGcolor-black-40, .BGcolor-black-50, 
-.BGcolor-black-60, .BGcolor-black-70, .BGcolor-black-80, 
-.BGcolor-black-90{
+.BGcolor-black{
     background-color: #000000 !important;
 }
-.BGcolor-darkerGrey, .BGcolor-darkerGrey-10, .BGcolor-darkerGrey-20, 
-.BGcolor-darkerGrey-30, .BGcolor-darkerGrey-40, .BGcolor-darkerGrey-50, 
-.BGcolor-darkerGrey-60, .BGcolor-darkerGrey-70, .BGcolor-darkerGrey-80, 
-.BGcolor-darkerGrey-90{
+.BGcolor-black-10{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.BGcolor-black-20{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.BGcolor-black-30{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.BGcolor-black-40{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.BGcolor-black-50{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.BGcolor-black-60{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.BGcolor-black-70{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.BGcolor-black-80{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.BGcolor-black-90{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.BGcolor-darkerGrey{
     background-color: #202020 !important;
 }
-.BGcolor-darkGrey, .BGcolor-darkGrey-10, .BGcolor-darkGrey-20,
-.BGcolor-darkGrey-30, .BGcolor-darkGrey-40, .BGcolor-darkGrey-50,
-.BGcolor-darkGrey-60, .BGcolor-darkGrey-70, .BGcolor-darkGrey-80,
-.BGcolor-darkGrey-90{
+.BGcolor-darkGrey{
     background-color: #404040 !important;
 }
-.BGcolor-grey, .BGcolor-grey-10, .BGcolor-grey-20, 
-.BGcolor-grey-30, .BGcolor-grey-40, .BGcolor-grey-50, 
-.BGcolor-grey-60, .BGcolor-grey-70, .BGcolor-grey-80, 
-.BGcolor-grey-90{
+.BGcolor-grey{
     background-color: #808080 !important;
 }
-.BGcolor-lightGrey, .BGcolor-lightGrey-10, .BGcolor-lightGrey-20, 
-.BGcolor-lightGrey-30, .BGcolor-lightGrey-40, .BGcolor-lightGrey-50, 
-.BGcolor-lightGrey-60, .BGcolor-lightGrey-70, .BGcolor-lightGrey-80, 
-.BGcolor-lightGrey-90{
+.BGcolor-lightGrey{
     background-color: #a0a0a0 !important;
 }
-.BGcolor-lighterGrey, .BGcolor-lighterGrey-10, .BGcolor-lighterGrey-20, 
-.BGcolor-lighterGrey-30, .BGcolor-lighterGrey-40, .BGcolor-lighterGrey-50, 
-.BGcolor-lighterGrey-60, .BGcolor-lighterGrey-70, .BGcolor-lighterGrey-80, 
-.BGcolor-lighterGrey-90{
+.BGcolor-lighterGrey{
     background-color: #c0c0c0 !important;
 }
-.BGcolor-brokenWhite, .BGcolor-brokenWhite-10, .BGcolor-brokenWhite-20, 
-.BGcolor-brokenWhite-30, .BGcolor-brokenWhite-40, .BGcolor-brokenWhite-50, 
-.BGcolor-brokenWhite-60, .BGcolor-brokenWhite-70, .BGcolor-brokenWhite-80, 
-.BGcolor-brokenWhite-90{
+.BGcolor-brokenWhite{
     background-color: #f8f8f8 !important;
 }
-.BGcolor-white, .BGcolor-white-10, .BGcolor-white-20, 
-.BGcolor-white-30, .BGcolor-white-40, .BGcolor-white-50, 
-.BGcolor-white-60, .BGcolor-white-70, .BGcolor-white-80, 
-.BGcolor-white-90{
+.BGcolor-white{
     background-color: #ffffff !important;
 }
-.BGcolor-deepBlue, .BGcolor-deepBlue-10, .BGcolor-deepBlue-20, 
-.BGcolor-deepBlue-30, .BGcolor-deepBlue-40, .BGcolor-deepBlue-50, 
-.BGcolor-deepBlue-60, .BGcolor-deepBlue-70, .BGcolor-deepBlue-80, 
-.BGcolor-deepBlue-90{
+.BGcolor-deepBlue{
     background-color: #03045E !important;
 }
-.BGcolor-darkBlue, .BGcolor-darkBlue-10, .BGcolor-darkBlue-20, 
-.BGcolor-darkBlue-30, .BGcolor-darkBlue-40, .BGcolor-darkBlue-50, 
-.BGcolor-darkBlue-60, .BGcolor-darkBlue-70, .BGcolor-darkBlue-80, 
-.BGcolor-darkBlue-90{
+.BGcolor-darkBlue{
     background-color: #0077B6 !important;
 }
-.BGcolor-blue, .BGcolor-blue-10, .BGcolor-blue-20, 
-.BGcolor-blue-30, .BGcolor-blue-40, .BGcolor-blue-50, 
-.BGcolor-blue-60, .BGcolor-blue-70, .BGcolor-blue-80, 
-.BGcolor-blue-90{
+.BGcolor-blue{
     background-color: #00B4D8 !important;
 }
-.BGcolor-lightBlue, .BGcolor-lightBlue-10, .BGcolor-lightBlue-20, 
-.BGcolor-lightBlue-30, .BGcolor-lightBlue-40, .BGcolor-lightBlue-50, 
-.BGcolor-lightBlue-60, .BGcolor-lightBlue-70, .BGcolor-lightBlue-80, 
-.BGcolor-lightBlue-90{
+.BGcolor-lightBlue{
     background-color: #90E0EF !important;
 }
-.BGcolor-heavenBlue, .BGcolor-heavenBlue-10, .BGcolor-heavenBlue-20, 
-.BGcolor-heavenBlue-30, .BGcolor-heavenBlue-40, .BGcolor-heavenBlue-50, 
-.BGcolor-heavenBlue-60, .BGcolor-heavenBlue-70, .BGcolor-heavenBlue-80, 
-.BGcolor-heavenBlue-90{
+.BGcolor-heavenBlue{
     background-color: #CAF0F8 !important;
 }
-
-
-.BGcolor-black-10, .BGcolor-darkerGrey-10, .BGcolor-darkGrey-10, 
-.BGcolor-grey-10, .BGcolor-lightGrey-10, .BGcolor-lighterGrey-10, 
-.BGcolor-brokenWhite-10, .BGcolor-white-10, .BGcolor-deepBlue-10, 
-.BGcolor-darkBlue-10, .BGcolor-blue-10, .BGcolor-lightBlue-10, 
-.BGcolor-heavenBlue-10{
-    opacity: 10%;
-}
-.BGcolor-black-20, .BGcolor-darkerGrey-20, .BGcolor-darkGrey-20, 
-.BGcolor-grey-20, .BGcolor-lightGrey-20, .BGcolor-lighterGrey-20, 
-.BGcolor-brokenWhite-20, .BGcolor-white-20, .BGcolor-deepBlue-20, 
-.BGcolor-darkBlue-20, .BGcolor-blue-20, .BGcolor-lightBlue-20, 
-.BGcolor-heavenBlue-20{
-    opacity: 20%;
-}
-.BGcolor-black-30, .BGcolor-darkerGrey-30, .BGcolor-darkGrey-30, 
-.BGcolor-grey-30, .BGcolor-lightGrey-30, .BGcolor-lighterGrey-30, 
-.BGcolor-brokenWhite-30, .BGcolor-white-30, .BGcolor-deepBlue-30, 
-.BGcolor-darkBlue-30, .BGcolor-blue-30, .BGcolor-lightBlue-30, 
-.BGcolor-heavenBlue-30{
-    opacity: 30%;
-}
-.BGcolor-black-40, .BGcolor-darkerGrey-40, .BGcolor-darkGrey-40, 
-.BGcolor-grey-40, .BGcolor-lightGrey-40, .BGcolor-lighterGrey-40, 
-.BGcolor-brokenWhite-40, .BGcolor-white-40, .BGcolor-deepBlue-40, 
-.BGcolor-darkBlue-40, .BGcolor-blue-40, .BGcolor-lightBlue-40, 
-.BGcolor-heavenBlue-40{
-    opacity: 40%;
-}
-.BGcolor-black-50, .BGcolor-darkerGrey-50, .BGcolor-darkGrey-50,
-.BGcolor-grey-50, .BGcolor-lightGrey-50, .BGcolor-lighterGrey-50,
-.BGcolor-brokenWhite-50, .BGcolor-white-50, .BGcolor-deepBlue-50,
-.BGcolor-darkBlue-50, .BGcolor-blue-50, .BGcolor-lightBlue-50,
-.BGcolor-heavenBlue-50{
-    opacity: 50%;
-}
-.BGcolor-black-60, .BGcolor-darkerGrey-60, .BGcolor-darkGrey-60,
-.BGcolor-grey-60, .BGcolor-lightGrey-60, .BGcolor-lighterGrey-60,
-.BGcolor-brokenWhite-60, .BGcolor-white-60, .BGcolor-deepBlue-60,
-.BGcolor-darkBlue-60, .BGcolor-blue-60, .BGcolor-lightBlue-60,
-.BGcolor-heavenBlue-60{
-    opacity: 60%;
-}
-.BGcolor-black-70, .BGcolor-darkerGrey-70, .BGcolor-darkGrey-70,
-.BGcolor-grey-70, .BGcolor-lightGrey-70, .BGcolor-lighterGrey-70,
-.BGcolor-brokenWhite-70, .BGcolor-white-70, .BGcolor-deepBlue-70,
-.BGcolor-darkBlue-70, .BGcolor-blue-70, .BGcolor-lightBlue-70,
-.BGcolor-heavenBlue-70{
-    opacity: 70%;
-}
-.BGcolor-black-80, .BGcolor-darkerGrey-80, .BGcolor-darkGrey-80,
-.BGcolor-grey-80, .BGcolor-lightGrey-80, .BGcolor-lighterGrey-80,
-.BGcolor-brokenWhite-80, .BGcolor-white-80, .BGcolor-deepBlue-80,
-.BGcolor-darkBlue-80, .BGcolor-blue-80, .BGcolor-lightBlue-80,
-.BGcolor-heavenBlue-80{
-    opacity: 80%;
-}
-.BGcolor-black-90, .BGcolor-darkerGrey-90, .BGcolor-darkGrey-90,
-.BGcolor-grey-90, .BGcolor-lightGrey-90, .BGcolor-lighterGrey-90,
-.BGcolor-brokenWhite-90, .BGcolor-white-90, .BGcolor-deepBlue-90,
-.BGcolor-darkBlue-90, .BGcolor-blue-90, .BGcolor-lightBlue-90,
-.BGcolor-heavenBlue-90{
-    opacity: 90%;
-}
-
-/*
-regex nouvelle couleur :
-
-.BGcolor-(.*),
-
-.BGcolor-$1, .BGcolor-$1-10, .BGcolor-$1-20,
-.BGcolor-$1-30, .BGcolor-$1-40, .BGcolor-$1-50,
-.BGcolor-$1-60, .BGcolor-$1-70, .BGcolor-$1-80,
-.BGcolor-$1-90
-*/
