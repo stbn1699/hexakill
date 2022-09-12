@@ -5,36 +5,60 @@
     <link rel="icon" type="image/png" href="images/H.png" />
     <title>HeXaKill</title>
     <link rel="stylesheet" type="text/css" href="css/master.css">
+    <script src="js/script.js"></script>
 </head>
 <body class="BGcolor-darkGrey h-100 accueilBackground">
 
-<header class="BGcolor-black-50">
-    <div class="row w-100 BGopacity">
-        <div class="col-1"></div>
-        <div class="col-3 p-0 my-3">
-            <a class="m-3" href="index.html">
-                <img style="width: 20rem" src="images/hexakill_white.png" alt="logo hexakill en blanc">
-            </a>
-        </div>
-        <div class="col p-0"></div>
-        <div class="col p-0"></div>
-        <div class="col-4 p-0">
-            <div class="row h-100">
-                <div class="col m-auto">
-                    <a class="headerButton Tcolor-brokenWhite" href="html/Home.html">Home</a>
-                </div>
-                <div class="col Tcolor-brokenWhite m-auto">
-                    <a class="headerButton Tcolor-brokenWhite" Href="html/Music.html">Music</a>
-                </div>
-                <div class="col Tcolor-brokenWhite m-auto">
-                    <a class="headerButton Tcolor-brokenWhite" href="html/Contact.html">Contact</a>
+<div class="content">
+    <header class="BGcolor-black-50">
+        <div class="row w-100 BGopacity">
+            <div class="col-1"></div>
+            <div class="col-3 p-0 my-3">
+                <a class="m-3" href="index.html">
+                    <img style="width: 20rem" src="images/hexakill_white.png" alt="logo hexakill en blanc">
+                </a>
+            </div>
+            <div class="col p-0"></div>
+            <div class="col p-0"></div>
+            <div class="col-4 p-0">
+                <div class="row h-100">
+                    <div class="col m-auto">
+                        <a class="headerButton Tcolor-brokenWhite" href="" onclick="visibilite('home'); return false;">Home</a>
+                    </div>
+                    <div class="col Tcolor-brokenWhite m-auto">
+                        <a class="headerButton Tcolor-brokenWhite" href="" onclick="visibilite('music'); return false;">Music</a>
+                    </div>
+                    <div class="col Tcolor-brokenWhite m-auto">
+                        <a class="headerButton Tcolor-brokenWhite" href="" onclick="visibilite('contact'); return false;">Contact</a>
+                    </div>
                 </div>
             </div>
+            <div class="col p-0"></div>
         </div>
-        <div class="col p-0"></div>
-    </div>
-</header>
+    </header>
 
+    
+
+    <div id="home" class="Element BGcolor-black-50 m-5 p-5 Tcolor-brokenWhite" style="display: none">
+        <div w3-include-html="html/Home.html"></div>
+    </div>
+    
+    
+    <div id="music" class="Element BGcolor-black-50 m-5 p-5 Tcolor-brokenWhite" style="display: none">
+        <div w3-include-html="html/Music.html"></div>
+    </div>
+    
+    
+    <div id="contact" class="Element BGcolor-black-50 m-5 p-5 Tcolor-brokenWhite" style="display: none">
+        <div w3-include-html="html/Contact.html"></div>
+    </div>
+    
+    
+    
+    <script>
+        includeHTML();
+    </script>
+</div>
 
 </body>
 </html>
