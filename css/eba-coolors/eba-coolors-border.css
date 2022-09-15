@@ -1,39 +1,39 @@
 .Bcolor-black{
-    color: #000000 !important;
+    border-color: #000000 !important;
 }
 .Bcolor-darkerGrey{
-    color: #202020 !important;
+    border-color: #202020 !important;
 }
 .Bcolor-darkGrey{
-    color: #404040 !important;
+    border-color: #404040 !important;
 }
 .Bcolor-grey{
-    color: #808080 !important;
+    border-color: #808080 !important;
 }
 .Bcolor-lightGrey{
-    color: #a0a0a0 !important;
+    border-color: #a0a0a0 !important;
 }
 .Bcolor-lighterGrey{
-    color: #c0c0c0 !important;
+    border-color: #c0c0c0 !important;
 }
 .Bcolor-brokenWhite{
-    color: #f8f8f8 !important;
+    border-color: #f8f8f8 !important;
 }
 .Bcolor-white{
-    color: #ffffff !important;
+    border-color: #ffffff !important;
 }
 .Bcolor-deepBlue{
-    color: #03045E !important;
+    border-color: #03045E !important;
 }
 .Bcolor-darkBlue{
-    color: #0077B6 !important;
+    border-color: #0077B6 !important;
 }
 .Bcolor-blue{
-    color: #00B4D8 !important;
+    border-color: #00B4D8 !important;
 }
 .Bcolor-lightBlue{
-    color: #90E0EF !important;
+    border-color: #90E0EF !important;
 }
 .Bcolor-heavenBlue{
-    color: #CAF0F8 !important;
+    border-color: #CAF0F8 !important;
 }

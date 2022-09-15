@@ -29,3 +29,16 @@ body, .accueilBackground { margin: 0; padding: 0;  }
     bottom: 0;
     right: 0;
 }
+.eba-visibilite-Element{
+    height: 70%;
+    min-height: 70%;
+    max-height: 70%;
+    margin: 3rem;
+    padding: 0 3rem 3rem 3rem ;
+}
+.page-title{
+    text-align: center;
+    font-size: 3rem;
+    border-bottom-style: solid !important;
+    border: 2px;
+}

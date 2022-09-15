@@ -15,7 +15,7 @@
             <div class="col-1"></div>
             <div class="col-3 p-0 my-3">
                 <a class="m-3" href="index.html">
-                    <img style="width: 20rem" src="images/hexakill_white.png" alt="logo hexakill en blanc">
+                    <img style="width: 20rem" src="images/hexakill_white.png" alt="logo hexakill en blanc" onclick="eba_visibilite('Hexakill'); return false;">
                 </a>
             </div>
             <div class="col p-0"></div>
@@ -23,13 +23,13 @@
             <div class="col-4 p-0">
                 <div class="row h-100">
                     <div class="col m-auto">
-                        <a class="headerButton Tcolor-brokenWhite" href="" onclick="visibilite('home'); return false;">Home</a>
+                        <a class="headerButton Tcolor-brokenWhite" href="" onclick="eba_visibilite('home'); return false;">Home</a>
                     </div>
                     <div class="col Tcolor-brokenWhite m-auto">
-                        <a class="headerButton Tcolor-brokenWhite" href="" onclick="visibilite('music'); return false;">Music</a>
+                        <a class="headerButton Tcolor-brokenWhite" href="" onclick="eba_visibilite('music'); return false;">Music</a>
                     </div>
                     <div class="col Tcolor-brokenWhite m-auto">
-                        <a class="headerButton Tcolor-brokenWhite" href="" onclick="visibilite('contact'); return false;">Contact</a>
+                        <a class="headerButton Tcolor-brokenWhite" href="" onclick="eba_visibilite('contact'); return false;">Contact</a>
                     </div>
                 </div>
             </div>
@@ -39,24 +39,30 @@
 
     
 
-    <div id="home" class="Element BGcolor-black-50 m-5 p-5 Tcolor-brokenWhite" style="display: none">
-        <div w3-include-html="html/Home.html"></div>
+    <div id="Hexakill" class="eba-visibilite-Element" style="display: none">
+        <div class="mx-auto d-flex">
+            <img style="width: 70rem; margin: auto" src="images/hexakill.png" alt="logo hexakill en blanc">
+        </div>
+    </div>
+    
+    <div id="home" class="eba-visibilite-Element BGcolor-black-70 Tcolor-brokenWhite" style="display: none">
+        <div eba-directive="html/Home.html"></div>
     </div>
     
     
-    <div id="music" class="Element BGcolor-black-50 m-5 p-5 Tcolor-brokenWhite" style="display: none">
-        <div w3-include-html="html/Music.html"></div>
+    <div id="music" class="eba-visibilite-Element BGcolor-black-70 Tcolor-brokenWhite" style="display: none">
+        <div eba-directive="html/Music.html"></div>
     </div>
     
     
-    <div id="contact" class="Element BGcolor-black-50 m-5 p-5 Tcolor-brokenWhite" style="display: none">
-        <div w3-include-html="html/Contact.html"></div>
+    <div id="contact" class="eba-visibilite-Element BGcolor-black-70 Tcolor-brokenWhite" style="display: none">
+        <div eba-directive="html/Contact.html"></div>
     </div>
     
     
     
     <script>
-        includeHTML();
+        Eba_Directive();/*sert a charger les pages html en directives au démarages*/
     </script>
 </div>
 
