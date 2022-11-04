@@ -3,7 +3,7 @@
     0% { background-position-y: 167vw; }
 }
 a{
-    cursor: none;
+    cursor: default;
 }
 .accueilBackground {
     margin: 0;
