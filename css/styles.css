@@ -80,24 +80,24 @@ a{
     height: 18rem;
     font-size: 2rem;
     margin-top: 8rem;
-    transition-duration: 2s;
+    transition-duration: 1s;
     transition-delay: 0s;
 }
 #albumBox:hover .albumTitle{
-    transition-duration: 2s;
-    transition-delay: 1s;
+    transition-duration: 1s;
+    transition-delay: .5s;
     color: white;
 }
 .albumCover{
-    transition-duration: 1s;
-    transition-delay: 1s;
+    transition-duration: .5s;
+    transition-delay: .5s;
     height: 18rem;
     margin: 1rem auto auto;
     border-radius: 1.5rem;
 }
 #albumBox:hover .albumCover{
     filter: brightness(50%);
-    transition-duration: 1s;
+    transition-duration: .5s;
     transition-delay: 0s;
     border-radius: 3rem;
 }
@@ -123,24 +123,72 @@ a{
     height: 18rem;
     font-size: 2rem;
     margin-top: 8rem;
-    transition-duration: 2s;
+    transition-duration: 1s;
     transition-delay: 0s;
 }
 #coverBox:hover .coverTitle{
-    transition-duration: 2s;
-    transition-delay: 1s;
+    transition-duration: 1s;
+    transition-delay: .5s;
     color: white;
 }
 .coverCover{
-    transition-duration: 1s;
-    transition-delay: 1s;
+    transition-duration: .5s;
+    transition-delay: .5s;
     height: 18rem;
     margin: 1rem auto auto;
     border-radius: 1.5rem;
 }
 #coverBox:hover .coverCover{
     filter: brightness(50%);
-    transition-duration: 1s;
+    transition-duration: .5s;
     transition-delay: 0s;
     border-radius: 3rem;
+}
+.mailContactText{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+.glass-button {
+    display: inline-block;
+    padding: 24px 32px;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.glass-button:hover {
+    background-color: rgba(255,255,255,0.2);
+}
+.mailTitle{
+    margin-top: 2rem;
+}
+.mailButton{
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    margin: 1rem auto 0;
+}
+.socialButton{
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    margin: .5rem;
+}
+.socialPersoButton{
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+}
+.socialPersoButtonLeft, .socialButtonLeft{
+    margin: .5rem .5rem .5rem auto;
+}
+.socialPersoButtonRight, .socialButtonRight{
+    margin: .5rem auto .5rem .5rem;
 }
