@@ -1,194 +1,228 @@
 @keyframes defile {
-    100% { background-position-y:   0; }
-    0% { background-position-y: 167vw; }
+	100% { background-position-y:   0; }
+	0% { background-position-y: 167vw; }
+}
+html {
+	overflow-y: hidden;
 }
 a{
-    cursor: default;
+	cursor: default;
 }
 .accueilBackground {
-    margin: 0;
-    padding: 0;
-    height: 167vh;
-    background: url(../images/background.jpg);
-    -webkit-background-size: cover;
-    background-size: cover;
-    animation: defile 100s ease-in-out infinite;
+	margin: 0;
+	padding: 0;
+	height: 167vh;
+	background: url(../images/background.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	animation: defile 100s ease-in-out infinite;
 }
 .headerButton{
-    font-size: 1.2rem;
-    transition-duration: 0.2s;
-    text-decoration:none;
+	font-size: 1.2rem;
+	transition-duration: 0.2s;
+	text-decoration:none;
 }
 .headerButton:hover{
-    font-size: 1.3rem;
-    transition-duration: 0.2s;
+	font-size: 1.3rem;
+	transition-duration: 0.2s;
 }
 ::-webkit-scrollbar {
-    width: 0;
+	width: 0;
 }
 .content{
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: 1rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: 1rem;
 }
 .eba-visibilite-Element{
-    height: 80%;
-    min-height: 80%;
-    max-height: 80%;
-    margin: 1.5rem;
-    padding: 0 3rem 3rem 3rem ;
+	height: 80%;
+	min-height: 80%;
+	max-height: 80%;
+	margin: 1.5rem;
+	padding: 0 3rem 3rem 3rem ;
 }
 .page-title{
-    text-align: center;
-    font-size: 3rem;
-    border-bottom-style: solid !important;
-    border: 2px;
+	text-align: center;
+	font-size: 3rem;
+	border-bottom-style: solid !important;
+	border: 2px;
 }
 .glassmorphism{
-    border-radius: 1rem;
-    background: rgba( 255, 255, 255, 0.05 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 7px );
-    -webkit-backdrop-filter: blur( 7px );
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+	border-radius: 1rem;
+	background: rgba( 255, 255, 255, 0.05 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 7px );
+	-webkit-backdrop-filter: blur( 7px );
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .musicTitle{
-    font-size: 2rem;
-    text-align: center;
+	font-size: 2rem;
+	text-align: center;
 }
 #albumBox{
-    width: 18rem;
-    margin: auto;
-    position:relative;
+	width: 18rem;
+	margin: auto;
+	position:relative;
 }
 .albumTitleBox{
-    position:absolute;
-    z-index:2;
-    font-size:200%;
+	position:absolute;
+	z-index:2;
+	font-size:200%;
 }
 .albumCoverBox{
-    position:absolute;
-    z-index:1;
+	position:absolute;
+	z-index:1;
 }
 .albumTitle{
-    color: rgb(0, 0, 0, 0%);
-    text-align: center;
-    width: 18rem;
-    height: 18rem;
-    font-size: 2rem;
-    margin-top: 8rem;
-    transition-duration: 1s;
-    transition-delay: 0s;
+	color: rgb(0, 0, 0, 0%);
+	text-align: center;
+	width: 18rem;
+	height: 18rem;
+	font-size: 2rem;
+	margin-top: 8rem;
+	transition-duration: 1s;
+	transition-delay: 0s;
 }
 #albumBox:hover .albumTitle{
-    transition-duration: 1s;
-    transition-delay: .5s;
-    color: white;
+	transition-duration: 1s;
+	transition-delay: .5s;
+	color: white;
 }
 .albumCover{
-    transition-duration: .5s;
-    transition-delay: .5s;
-    height: 18rem;
-    margin: 1rem auto auto;
-    border-radius: 1.5rem;
+	transition-duration: .5s;
+	transition-delay: .5s;
+	height: 18rem;
+	margin: 1rem auto auto;
+	border-radius: 1.5rem;
 }
 #albumBox:hover .albumCover{
-    filter: brightness(50%);
-    transition-duration: .5s;
-    transition-delay: 0s;
-    border-radius: 3rem;
+	filter: brightness(50%);
+	transition-duration: .5s;
+	transition-delay: 0s;
+	border-radius: 3rem;
 }
 
 #coverBox{
-    width: 18rem;
-    margin: auto;
-    position:relative;
+	width: 18rem;
+	margin: auto;
+	position:relative;
 }
 .coverTitleBox{
-    position:absolute;
-    z-index:2;
-    font-size:200%;
+	position:absolute;
+	z-index:2;
+	font-size:200%;
 }
 .coverCoverBox{
-    position:absolute;
-    z-index:1;
+	position:absolute;
+	z-index:1;
 }
 .coverTitle{
-    color: rgb(0, 0, 0, 0%);
-    text-align: center;
-    width: 18rem;
-    height: 18rem;
-    font-size: 2rem;
-    margin-top: 8rem;
-    transition-duration: 1s;
-    transition-delay: 0s;
+	color: rgb(0, 0, 0, 0%);
+	text-align: center;
+	width: 18rem;
+	height: 18rem;
+	font-size: 2rem;
+	margin-top: 8rem;
+	transition-duration: 1s;
+	transition-delay: 0s;
 }
 #coverBox:hover .coverTitle{
-    transition-duration: 1s;
-    transition-delay: .5s;
-    color: white;
+	transition-duration: 1s;
+	transition-delay: .5s;
+	color: white;
 }
 .coverCover{
-    transition-duration: .5s;
-    transition-delay: .5s;
-    height: 18rem;
-    margin: 1rem auto auto;
-    border-radius: 1.5rem;
+	transition-duration: .5s;
+	transition-delay: .5s;
+	height: 18rem;
+	margin: 1rem auto auto;
+	border-radius: 1.5rem;
 }
 #coverBox:hover .coverCover{
-    filter: brightness(50%);
-    transition-duration: .5s;
-    transition-delay: 0s;
-    border-radius: 3rem;
+	filter: brightness(50%);
+	transition-duration: .5s;
+	transition-delay: 0s;
 }
 .mailContactText{
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 2rem;
-}
-.glass-button {
-    display: inline-block;
-    padding: 24px 32px;
-    text-decoration: none;
-    border-radius: 15px;
-    background-color: rgba(255,255,255,0.1);
-    border: 1px solid rgba(255,255,255,0.1);
-    backdrop-filter: blur(30px);
-    color: rgba(255,255,255,0.8);
-    font-size: 14px;
-    letter-spacing: 2px;
-    cursor: pointer;
-    text-transform: uppercase;
+	text-align: center;
 }
 
-.glass-button:hover {
-    background-color: rgba(255,255,255,0.2);
-}
-.mailTitle{
-    margin-top: 2rem;
-}
 .mailButton{
-    padding: .5rem 1rem;
-    border-radius: 2rem;
-    margin: 1rem auto 0;
+	padding: .5rem 1rem;
+	border-radius: 2rem;
+	margin: 1rem auto 0;
 }
 .socialButton{
-    width: 6rem;
-    height: 2.5rem;
-    border-radius: 2rem;
-    margin: .5rem;
+	width: 6rem;
+	height: 2.5rem;
+	border-radius: 2rem;
+	margin: .5rem;
 }
 .socialPersoButton{
-    width: 10rem;
-    height: 2.5rem;
-    border-radius: 2rem;
+	width: 10rem;
+	height: 2.5rem;
+	border-radius: 2rem;
 }
 .socialPersoButtonLeft, .socialButtonLeft{
-    margin: .5rem .5rem .5rem auto;
+	margin: .5rem .5rem .5rem auto;
 }
 .socialPersoButtonRight, .socialButtonRight{
-    margin: .5rem auto .5rem .5rem;
+	margin: .5rem auto .5rem .5rem;
+}
+.mailContactText{
+	font-size: 2rem;
+	margin-top: 2rem;
+}
+#coverBox:hover .coverCover{
+	border-radius: 3rem;
+}
+.coverCover{
+	height: 18rem;
+	margin: 1rem auto auto;
+	border-radius: 1.5rem;
+}
+.contact-1164-1280, .contact-1281-1423{
+	display: none;
+}
+
+@media (min-width: 1281px) and (max-width: 1423px){
+	.contact-1281-1423{
+		display: block;
+	}
+	.contactTitle{
+		text-align: left;
+		margin-top: 2rem;
+		font-size: 1.5rem;
+	}
+}
+@media (min-width: 1164px) and (max-width: 1280px){
+	.contact-1164-1280{
+		display: block;
+	}
+	.contactTitle{
+		font-size: 1.5rem;
+		margin-top: auto;
+		margin-left: auto;
+	}
+	.mailButtonDiv{
+		margin-top: auto;
+		margin-left: auto;
+	}
+}
+@media (max-width: 1163px){
+	.contact-1163{
+		display: block;
+	}
+	.contactTitle{
+		font-size: 1.5rem;
+		margin-top: auto;
+		margin-left: auto;
+	}
+	.mailButtonDiv{
+		margin-top: auto;
+		margin-left: auto;
+	}
 }
